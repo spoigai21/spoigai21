@@ -10,7 +10,7 @@ I build software end-to-end - APIs, frontends, and cloud deployment - with a foc
 
 ## 🚀 What I'm working on now
 
-- **Adorus** — building and deploying a full-stack jewelry e-commerce platform end-to-end as sole developer (React, Java Spring Boot, PostgreSQL, AWS)
+- **Adorus** — building and deploying a full-stack e-commerce platform end-to-end as sole developer (React, Java Spring Boot, PostgreSQL, AWS)
 - **HerbsPro** — building backend and agentic AI features across the e-commerce stack
 - **Learning** — going deeper into MCP, AI agents, and distributed systems
 
