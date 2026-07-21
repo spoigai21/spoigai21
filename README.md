@@ -1,8 +1,8 @@
-# Hi, I'm Shayan Poigai 👋
+# About Me:
 
-**CS student at Santa Clara University (GPA 4.0) · Full-stack & AI engineer · Co-founder @ Adorus**
+**CS student at Santa Clara University · Co-founder @ Adorus · SWE Intern @ HerbsPro**
 
-I build software end-to-end — from data models and APIs to frontends and cloud deployment — and I'm especially drawn to the invisible foundations that make products reliable at scale. Recently published research on public sentiment toward LLMs, and I spend most of my time shipping real products people actually use.
+I build software end-to-end - APIs, frontends, and cloud deployment - with a focus on what keeps products reliable at scale. Sole developer of my startup Adorus, building agentic AI features at HerbsPro, and co-author of a peer-reviewed paper accepted into HIBIBI 2026. Reach me at spoigai@scu.edu.
 
 📍 Fremont, CA · 📫 spoigai21@gmail.com · 🔗 [Portfolio](https://shayan-poigai.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/shayanpoigai/)
 
@@ -69,18 +69,8 @@ A desktop social app in C++ with a Qt GUI and MVC architecture. Modeled friendsh
 ## 🏆 Highlights
 
 - 📄 **Peer-reviewed paper accepted** at HIBIBI 2026 (collocated with IEEE/ACM ASONAM), publishing with **Springer** — primary writer
-- 🎓 **4.0 GPA** in Computer Science @ Santa Clara University
+- 🎓 **4.0 Major GPA** in Computer Science @ Santa Clara University
 - 👨‍🏫 **CS Teaching Assistant** — mentored 40+ students in C++ and algorithms
 - ✍️ Wrote a [blog post](https://medium.com/@spoigai21/the-first-time-i-saw-claude-code-get-it-wrong-0e3fae6d3677) on human oversight of AI coding tools, prompted by a real production incident
 
 ---
-
-## 📊 GitHub Stats
-
-![Shayan's GitHub stats](https://github-readme-stats.vercel.app/api?username=spoigai21&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=spoigai21&layout=compact&theme=tokyonight&hide_border=true)
-
----
-
-<p align="center"><i>Always building something. Let's connect.</i></p>
