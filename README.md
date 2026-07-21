@@ -42,6 +42,8 @@ I build software end-to-end - APIs, frontends, and cloud deployment - with a foc
 ![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat)
 ![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+
+**Others**
 ![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=flat&logo=qiskit&logoColor=white)
 
 ---
