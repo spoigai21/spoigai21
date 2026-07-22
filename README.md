@@ -2,8 +2,6 @@
 
 **3rd year CS student @ Santa Clara University · Co-founder @ Adorus · SWE Intern @ HerbsPro**
 
-I build software end-to-end - APIs, frontends, and cloud deployment - with a focus on what keeps products reliable at scale. Sole developer of my startup Adorus, building agentic AI features at HerbsPro, and co-author of a peer-reviewed paper accepted into HIBIBI 2026. Reach me at spoigai@scu.edu.
-
 📍 Fremont, CA · spoigai21@gmail.com · [Portfolio](https://shayan-poigai.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/shayanpoigai/)
 
 ---
