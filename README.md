@@ -6,14 +6,6 @@
 
 ---
 
-## 🚀 What I'm working on now
-
-- **Adorus** — building and deploying a full-stack e-commerce platform end-to-end as sole developer (React, Java Spring Boot, PostgreSQL, AWS)
-- **HerbsPro** — building backend and agentic AI features across the e-commerce stack
-- **Learning** — going deeper into MCP, AI agents, and distributed systems
-
----
-
 ## 🛠️ Tech Stack
 
 **Languages**
