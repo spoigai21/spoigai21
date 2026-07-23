@@ -69,6 +69,10 @@ A desktop social app in C++ with a Qt GUI and MVC architecture. Modeled friendsh
 A Python daemon that polls 20+ company career pages and alerts me the moment a relevant internship goes live. Parses Greenhouse, Ashby, Lever, and Uber job APIs, scores each listing against a YAML profile, and routes alerts by tier — push + email for standard matches, SMS + phone call for high-priority ones. Handles the messy parts: content-based dedup so re-listed roles don't spam, stale-backfill filtering, per-domain rate limiting, and SQLite state on a persistent volume so nothing is missed across redeploys. Runs 24/7 on Railway.
 `Python` `SQLite` `Twilio` `ntfy` `Railway` `Click` `pytest`
 
+### 🧠 [Evermind](https://github.com/MihirGajjar27/prod-empathic-ai-backend)
+A voice-first empathetic AI companion that listens, remembers, and responds with emotional awareness. Speech streams over WebSockets to Hume AI for real-time emotional-tone detection, and Gemini generates warm, context-aware replies. A **Neo4j knowledge graph** stores emotions and topics as nodes with their relationships as edges, giving the agent short-term memory that persists across a session instead of resetting each turn. The Next.js frontend features a React Three Fiber voice orb that reacts to live audio, a running transcript, and a real-time view of the growing knowledge graph.
+`Next.js` `WebSockets` `Hume AI` `Gemini` `Neo4j` `React Three Fiber`
+
 ---
 
 ## 🏆 Highlights
