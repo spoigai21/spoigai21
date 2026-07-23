@@ -67,7 +67,6 @@ A desktop social app in C++ with a Qt GUI and MVC architecture. Modeled friendsh
 
 ### 🔔 [Internship Monitor](https://github.com/spoigai21/jobscraper)
 A Python daemon that polls 20+ company career pages and alerts me the moment a relevant internship goes live. Parses Greenhouse, Ashby, Lever, and Uber job APIs, scores each listing against a YAML profile, and routes alerts by tier — push + email for standard matches, SMS + phone call for high-priority ones. Handles the messy parts: content-based dedup so re-listed roles don't spam, stale-backfill filtering, per-domain rate limiting, and SQLite state on a persistent volume so nothing is missed across redeploys. Runs 24/7 on Railway.
-
 `Python` `SQLite` `Twilio` `ntfy` `Railway` `Click` `pytest`
 
 ---
