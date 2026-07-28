@@ -2,7 +2,7 @@
 
 **3rd year CS student @ Santa Clara University · Co-Founder & CTO @ Adorus · SWE Intern @ HerbsPro**
 
-📍 Fremont, CA · spoigai21@gmail.com · [Portfolio](https://shayan-poigai.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/shayanpoigai/)
+📍 Fremont, CA · spoigai21@gmail.com · [Portfolio](https://www.shayanpoigai.dev/) · [LinkedIn](https://www.linkedin.com/in/shayanpoigai/)
 
 ---
 
