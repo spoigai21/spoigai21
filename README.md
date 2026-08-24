@@ -1,6 +1,6 @@
 # About Me:
 
-**3rd year CS student @ Santa Clara University · Co-Founder & SWE @ Adorus · SWE Intern @ HerbsPro**
+**3rd year CS student @ Santa Clara University · Co-Founder & SWE @ Adorus · FDE @ Countera**
 
 📍 Fremont, CA · spoigai21@gmail.com · [Portfolio](https://www.shayanpoigai.dev/) · [LinkedIn](https://www.linkedin.com/in/shayanpoigai/)
 
