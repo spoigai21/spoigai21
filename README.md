@@ -1,6 +1,6 @@
 # About Me:
 
-**3rd year CS student @ Santa Clara University · Co-Founder & SWE @ Adorus · FDE @ Countera**
+**3rd year CS student @ Santa Clara University · Co-Founder & SWE @ Adorus · FDE Intern @ Countera**
 
 📍 Fremont, CA · spoigai21@gmail.com · [Portfolio](https://www.shayanpoigai.dev/) · [LinkedIn](https://www.linkedin.com/in/shayanpoigai/)
 
@@ -10,7 +10,6 @@
 
 - **Adorus** — building and deploying a full-stack jewelry e-commerce platform end-to-end as sole developer (React, Java Spring Boot, PostgreSQL, AWS)
 - **Adorus** — building and deploying a full-stack e-commerce platform end-to-end as sole developer (React, Java Spring Boot, PostgreSQL, AWS)
-- **HerbsPro** — building backend and agentic AI features across the e-commerce stack
 - **Learning** — going deeper into MCP, AI agents, and distributed systems
 
 ---
