@@ -8,7 +8,7 @@
 
   ## 🚀 What I'm working on now
 
-  - **Countera** — working on the backend
+  - **Countera** — working on the backend for POS system
   - **Adorus** — implementing a social metrics dashboard
   - **Stock Swing Agent** — developing an agent that analyzes swings in stocks, accessible via CLI
 
