@@ -74,7 +74,7 @@
 An open-source CLI agent that detects unusual stock moves, retrieves news published **before** each move began, and explains the cause — or says "unexplained" rather than guessing. A **LangGraph** pipeline strips any citation that doesn't match a real retrieved article. Ingests 28 sources (SEC EDGAR, GDELT via **BigQuery**, RSS/IR feeds) into **PostgreSQL + pgvector**, deduplicated with MinHash and embeddings. A placebo test found **0 fabricated explanations in 38 trials**, and one combined BigQuery query cut projected scan volume ~99%. 412 tests, published via PyPI Trusted Publishing.
 `Python` `LangGraph` `Gemini` `PostgreSQL` `pgvector` `BigQuery` `pytest`
 
-### 💎 [Adorus Jewels](https://adorusjewels.com)
+### 💎 [Adorus](https://adorusjewels.com)
 A full-stack jewelry e-commerce platform built and deployed end-to-end. A **Java 21 Spring Boot** backend over **PostgreSQL** on AWS, a **React + Vite** storefront served through CloudFront, **Stripe** payments, and CI/CD with GitHub Actions. ML features include visual similarity search with **CLIP** on AWS Lambda and AI virtual try-on.
 `Java` `Spring Boot` `React` `PostgreSQL` `AWS` `Stripe`
 
