@@ -65,6 +65,7 @@
 
 **Others**
 ![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=flat&logo=qiskit&logoColor=white)
+![IBM Quantum](https://img.shields.io/badge/IBM_Quantum-052FAD?style=flat)
 
 ---
 
