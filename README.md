@@ -1,6 +1,6 @@
 # About Me:
 
-**3rd year CS student @ Santa Clara University · SWE @ Adorus · FDE Intern @ Countera · Research Assistant @ SCU**
+**3rd year CS student @ Santa Clara University · Co-Founder & SWE @ Adorus · FDE Intern @ Countera**
 
 📍 Fremont, CA · spoigai21@gmail.com · [Portfolio](https://www.shayanpoigai.dev/) · [LinkedIn](https://www.linkedin.com/in/shayanpoigai/)
 
@@ -10,6 +10,7 @@
 
 - **Countera** — working on the backend for POS system
 - **Adorus** — implementing a social metrics dashboard
+- **[Fusion Bench](https://github.com/spoigai21/fusion-bench)** — hand-written CUDA kernels on an A100 that beat `torch.softmax` 1.16×, profiled with Nsight Compute
 - **[Swing Agent](https://github.com/spoigai21/swing-agent)** — shipped v0.2.0 to PyPI: a CLI agent that explains unusual stock moves from news published before the move, or abstains
 
 ---
@@ -18,10 +19,11 @@
 
 **Languages**
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=fff)
 
 **Frameworks & Tools**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
@@ -37,6 +39,9 @@
 ![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=flat&logo=pypi&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Nsight Compute](https://img.shields.io/badge/Nsight_Compute-76B900?style=flat&logo=nvidia&logoColor=white)
+![pybind11](https://img.shields.io/badge/pybind11-3776AB?style=flat)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
 
 **Cloud & Data**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat)
@@ -59,12 +64,13 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat)
 ![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
 
 **Others**
-![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=flat&logo=qiskit&logoColor=white)
+![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=flat&logo=qiskit&logoColor=fff)
 ![IBM Quantum](https://img.shields.io/badge/IBM_Quantum-052FAD?style=flat)
 
 ---
@@ -75,7 +81,11 @@
 An open-source CLI agent that detects unusual stock moves, retrieves news published **before** each move began, and explains the cause — or says "unexplained" rather than guessing. A **LangGraph** pipeline strips any citation that doesn't match a real retrieved article. Ingests 28 sources (SEC EDGAR, GDELT via **BigQuery**, RSS/IR feeds) into **PostgreSQL + pgvector**, deduplicated with MinHash and embeddings. A placebo test found **0 fabricated explanations in 38 trials**, and one combined BigQuery query cut projected scan volume ~99%. 412 tests, published via PyPI Trusted Publishing.
 `Python` `LangGraph` `Gemini` `PostgreSQL` `pgvector` `BigQuery` `pytest`
 
-### 💎 [Adorus](https://adorusjewels.com)
+### ⚡ [Fusion Bench](https://github.com/spoigai21/fusion-bench)
+Three progressively optimized FP32 softmax kernels in **CUDA C++** on an NVIDIA **A100**. The final kernel uses online softmax (the FlashAttention primitive), warp-shuffle reductions, float4 loads and register-resident rows with zero spills. It runs **1.78× faster than naive at 82% of peak HBM bandwidth** and **1.16× faster than `torch.softmax`**. **Nsight Compute** counters show the speedup matches the DRAM traffic reduction to within 2%, and they pinpoint where that model breaks: L2-resident shapes, where moving fewer bytes ran *slower*. Validated against a float64 reference across 14 edge cases, with the whole build verified GPU-free first so the paid A100 session took ~25 minutes.
+`CUDA C++` `PyTorch` `Nsight Compute` `pybind11` `NumPy` `Docker`
+
+### 💎 [Adorus Jewels](https://adorusjewels.com)
 A full-stack jewelry e-commerce platform built and deployed end-to-end. A **Java 21 Spring Boot** backend over **PostgreSQL** on AWS, a **React + Vite** storefront served through CloudFront, **Stripe** payments, and CI/CD with GitHub Actions. ML features include visual similarity search with **CLIP** on AWS Lambda and AI virtual try-on.
 `Java` `Spring Boot` `React` `PostgreSQL` `AWS` `Stripe`
 
