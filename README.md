@@ -8,10 +8,8 @@
 
 ## 🚀 What I'm working on now
 
-- **Countera** — working on the backend for POS system
+- **Countera** — working on multimodal LLM pipelines
 - **Adorus** — implementing a social metrics dashboard
-- **[Fusion Bench](https://github.com/spoigai21/fusion-bench)** — hand-written CUDA kernels on an A100 that beat `torch.softmax` 1.16×, profiled with Nsight Compute
-- **[Swing Agent](https://github.com/spoigai21/swing-agent)** — shipped v0.2.0 to PyPI: a CLI agent that explains unusual stock moves from news published before the move, or abstains
 
 ---
 
