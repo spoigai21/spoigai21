@@ -10,6 +10,7 @@
 
 - **Countera** — working on multimodal LLM pipelines
 - **Adorus** — implementing a social metrics dashboard
+- **CineInfer** — project that infers what movies people are interested in through machine learning (Pytorch, Spark)
 
 ---
 
