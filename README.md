@@ -1,6 +1,6 @@
 # About Me:
 
-**3rd year CS student @ Santa Clara University · SWE @ Adorus · FDE Intern @ Countera · Research Assistant @ SCU**
+**3rd year CS student @ Santa Clara University · SWE @ Adorus · FDE Intern @ Countera · ML Research Assistant @ SCU**
 
 📍 **Fremont, CA · spoigai21@gmail.com**
 
