@@ -4,7 +4,7 @@
 
 📍 **Fremont, CA**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.shayanpoigai.dev/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge)](https://www.shayanpoigai.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shayanpoigai/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:spoigai21@gmail.com)
 
