@@ -85,46 +85,6 @@
 
 ---
 
-## 📌 Featured Projects
-
-### 📈 [Swing Agent](https://github.com/spoigai21/swing-agent) · [PyPI](https://pypi.org/project/swing-agent/)
-An open-source CLI agent that detects unusual stock moves, retrieves news published **before** each move began, and explains the cause — or says "unexplained" rather than guessing. A **LangGraph** pipeline strips any citation that doesn't match a real retrieved article. Ingests 28 sources (SEC EDGAR, GDELT via **BigQuery**, RSS/IR feeds) into **PostgreSQL + pgvector**, deduplicated with MinHash and embeddings. A placebo test found **0 fabricated explanations in 38 trials**, and one combined BigQuery query cut projected scan volume ~99%. **561 tests** across a 3-job CI pipeline (lint/unit, SQL against Postgres, clean-install packaging), 54 engineering postmortems, published via PyPI Trusted Publishing.
-`Python` `LangGraph` `Gemini` `PostgreSQL` `pgvector` `BigQuery` `pytest`
-
-### ⚡ [Fusion Bench](https://github.com/spoigai21/fusion-bench)
-Three progressively optimized FP32 softmax kernels in **CUDA C++** on an NVIDIA **A100**. The final kernel uses online softmax (the FlashAttention primitive), warp-shuffle reductions, float4 loads and register-resident rows with zero spills. It runs **1.78× faster than naive at 82% of peak HBM bandwidth** and **1.16× faster than `torch.softmax`**. **Nsight Compute** counters show the speedup matches the DRAM traffic reduction to within 2%, and they pinpoint where that model breaks: L2-resident shapes, where moving fewer bytes ran *slower*. Validated against a float64 reference across 14 edge cases, with the whole build verified GPU-free first so the paid A100 session took ~25 minutes.
-`CUDA C++` `PyTorch` `Nsight Compute` `pybind11` `NumPy` `Docker`
-
-### 💎 [Adorus Jewels](https://adorusjewels.com)
-A full-stack jewelry e-commerce platform built and deployed end-to-end. A **Java 21 Spring Boot** backend over **PostgreSQL** on AWS, a **React + Vite** storefront served through CloudFront, **Stripe** payments, and CI/CD with GitHub Actions. ML features include visual similarity search with **CLIP** on AWS Lambda and AI virtual try-on.
-`Java` `Spring Boot` `React` `PostgreSQL` `AWS` `Stripe`
-
-### 🃏 [Kuhn Poker vs Quantum](https://github.com/spoigai21/kuhn-quantum-poker) · [Live Demo](https://kuhn-quantum-poker.vercel.app/)
-A full-stack game where you play poker against an opponent whose strategy is computed by a **real quantum computer**. Built a 6-qubit variational circuit in Qiskit, wrapped in a FastAPI backend + React frontend. Ran it on **real IBM quantum hardware** — real-chip results matched simulation within ~1.7 percentage points on a 4,096-shot run.
-`Qiskit` `IBM Quantum` `FastAPI` `React`
-
-### 🍽️  [Agentic Restaurant RAG Pipeline](https://github.com/spoigai21/restaurant-rag)
-A retrieval system that lets an AI agent answer natural-language questions about restaurants via semantic search. Built an **MCP server** exposing local data as tools for AI agents over JSON-RPC; tested on OpenWebUI with Ollama.
-`Python` `ChromaDB` `Ollama` `MCP` `RAG`
-
-### 🦠 [Disease Tracker](https://github.com/tatertotbot/AWS-Inrix-2025)
-A FastAPI service serving real-time disease metrics and risk assessments with low-latency responses. Engineered an **AWS Bedrock** AI risk-scoring pipeline and designed DynamoDB schemas for scalable data ingestion.
-`React` `FastAPI` `AWS Bedrock` `DynamoDB`
-
-### 🌐 [Social Network (C++ / Qt)](https://github.com/spoigai21/socialnetwork)
-A desktop social app in C++ with a Qt GUI and MVC architecture. Modeled friendships with a custom graph and generated friend suggestions via BFS traversal, with file I/O for persistence.
-`C++` `Qt` `Graphs` `MVC`
-
-### 🔔 [Internship Monitor](https://github.com/spoigai21/internship-monitor)
-A Python daemon that polls 20+ company career pages and alerts me the moment a relevant internship goes live. Parses Greenhouse, Ashby, Lever, and Uber job APIs, scores each listing against a YAML profile, and routes alerts by tier — push + email for standard matches, SMS + phone call for high-priority ones. Handles the messy parts: content-based dedup so re-listed roles don't spam, stale-backfill filtering, per-domain rate limiting, and SQLite state on a persistent volume so nothing is missed across redeploys. Runs 24/7 on Railway.
-`Python` `SQLite` `Twilio` `ntfy` `Railway` `Click` `pytest`
-
-### 🧠 [Evermind](https://github.com/MihirGajjar27/prod-empathic-ai-backend)
-A voice-first empathetic AI companion that listens, remembers, and responds with emotional awareness. Speech streams over WebSockets to Hume AI for real-time emotional-tone detection, and Gemini generates warm, context-aware replies. A **Neo4j knowledge graph** stores emotions and topics as nodes with their relationships as edges, giving the agent short-term memory that persists across a session instead of resetting each turn. The Next.js frontend features a React Three Fiber voice orb that reacts to live audio, a running transcript, and a real-time view of the growing knowledge graph.
-`Next.js` `WebSockets` `Hume AI` `Gemini` `Neo4j` `React Three Fiber`
-
----
-
 ## 🏆 Highlights
 
 - 📦 **Published `swing-agent` to PyPI** — open-source (MIT), [pypi.org/project/swing-agent](https://pypi.org/project/swing-agent/)
