@@ -1,6 +1,6 @@
 # About Me:
 
-**3rd year CS student @ Santa Clara University · SWE @ Adorus · FDE Intern @ Countera · GNN/NLP Researcher @ SCU**
+**3rd year CS student @ Santa Clara University · SWE @ Adorus · FDE Intern @ Countera · GNN & NLP Researcher @ SCU**
 
 📍 **Fremont, CA · spoigai21@gmail.com**
 
